@@ -1,0 +1,25 @@
+{
+  "name": "academy",
+  "version": "1.0.0",
+  "description": "js exercises with tests",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest ./exercises/01_unique/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3k5/academy.git"
+  },
+  "author": "Vladislav Marchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w3k5/academy/issues"
+  },
+  "homepage": "https://github.com/w3k5/academy#readme",
+  "dependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15"
+  }
+}
